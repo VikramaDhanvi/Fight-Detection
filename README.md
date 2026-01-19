@@ -18,5 +18,4 @@ A deep learning-based **Fight Detection System** that processes video footage to
 - **MediaPipe** – Human pose estimation  
 - **Flask** – (Optional) Web API for deployment  
 
-## 📂 Project Structure  
 
