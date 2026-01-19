@@ -1,21 +1,34 @@
-# Fight Detection System 🎥⚠️  
+cat << 'EOF' > README.md
+# 🥊 Real-Time Fight Detection Using YOLOv5 and Motion Analysis
 
-A deep learning-based **Fight Detection System** that processes video footage to identify violent physical altercations in real time.
+This project performs real-time people detection using YOLOv5 and identifies potential fight situations based on rapid motion changes between video frames using OpenCV.
 
-## 🚀 Features  
+---
 
-- **Real-time Detection** – Analyzes live or recorded video streams.  
-- **Deep Learning Model** – Uses CNNs for activity classification.  
-- **Pose Estimation** – Utilizes MediaPipe to enhance recognition accuracy.  
-- **Alert System** – Generates warnings when a fight is detected.  
-- **Multiple Input Sources** – Supports webcams and video files.  
+## 🚀 Features
 
-## 🛠️ Tech Stack  
+- Real-time person detection using YOLOv5  
+- Motion-based fight detection logic  
+- Live webcam feed processing  
+- Bounding boxes around detected persons  
+- Fight alert display on screen  
+- Automatic people counter  
 
-- **Python** – Core programming language  
-- **OpenCV** – Video frame processing  
-- **TensorFlow/Keras** – Deep learning model  
-- **MediaPipe** – Human pose estimation  
-- **Flask** – (Optional) Web API for deployment  
+---
 
+## 🛠️ Technologies Used
 
+- Python  
+- PyTorch  
+- YOLOv5  
+- OpenCV  
+- NumPy  
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/fight-detection-yolov5.git
+cd fight-detection-yolov5
